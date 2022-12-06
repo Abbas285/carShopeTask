@@ -1,0 +1,80 @@
+@mixin defaultflex {
+  display: flex;
+  justify-content: center;
+}
+$small: 400px;
+$medium: 900px;
+.b-signIn-container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(76, 225, 225);
+  @include defaultflex;
+  align-items: center;
+  align-content: center;
+
+  &__formSection {
+    background-color: rgb(246, 247, 247);
+    width: 40%;
+    margin: auto;
+    height: 90vh;
+    border: 1.5px solid #ebebeb;
+    box-shadow: 8px 8px 12px rgba(17, 16, 16, 0.25);
+    border-radius: 8px;
+  }
+  &__header {
+    margin-bottom: 40px;
+  }
+  text-align: center;
+  &__textField {
+    padding: 0 50px 0 50px;
+
+    & label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 600;
+    }
+    & p {
+      color: red;
+      line-height: 18px;
+      font-size: 20px;
+    }
+    & input {
+      display: block;
+      width: 100%;
+      padding: 15px 0 15px 10px;
+      font-size: 20px;
+      border-radius: 8px;
+      border: 1px solid rgb(141, 107, 175);
+      outline: transparent;
+    }
+  }
+  &__button {
+    padding: 20px 40px 20px 40px;
+    font-size: 22px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: transparent;
+    margin-right: 5px;
+    background-color: rgb(141, 107, 175);
+    color: #ebebeb;
+    box-shadow: 8px 8px 12px rgba(17, 16, 16, 0.25);
+    outline: none;
+    border: none;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  @media screen and (max-width: $medium) {
+    &__formSection {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: $small) {
+    &__formSection {
+      width: 95%;
+    }
+  }
+}

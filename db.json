@@ -1,0 +1,256 @@
+{
+  "users": [
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "userName": "abbas@gamil.com",
+      "userEmail": "syedabbasali.pak698@yahoo.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "cars": [
+    {
+      "carName": "Bus",
+      "carId": 1,
+      "make": "Express Bus",
+      "regestrationNo": "00ExBus123A",
+      "model": [
+        {
+          "carId": 1,
+          "modelId": "1Ma",
+          "modelYear": "Bus 2022"
+        },
+        {
+          "carId": 1,
+          "modelId": "1Mb",
+          "modelYear": "Bus 2021"
+        },
+        {
+          "carId": 1,
+          "modelId": "1Mc",
+          "modelYear": "Bus 2020"
+        },
+        {
+          "carId": 1,
+          "modelId": "1Md",
+          "modelYear": "Bus 2019"
+        }
+      ],
+      "carColor": [
+        {
+          "carId": 1,
+          "colorId": "1Ca",
+          "color": "Bus red"
+        },
+        {
+          "carId": 1,
+          "colorId": "1Cb",
+          "color": "Bus green"
+        },
+        {
+          "carId": 1,
+          "colorId": "1Cc",
+          "color": "Bus pink"
+        },
+        {
+          "carId": 1,
+          "colorId": "1Cd",
+          "color": "Bus yellow"
+        }
+      ]
+    },
+    {
+      "carName": "Sedan",
+      "carId": 2,
+      "make": "Toyota",
+      "regestrationNo": "00ToyotaSedan123A",
+      "model": [
+        {
+          "carId": 2,
+          "modelId": "2Ma",
+          "modelYear": "Sedan 2022"
+        },
+        {
+          "carId": 2,
+          "modelId": "2Mb",
+          "modelYear": "Sedan 2021"
+        },
+        {
+          "carId": 2,
+          "modelId": "2Mc",
+          "modelYear": "Sedan 2020"
+        },
+        {
+          "carId": 2,
+          "modelId": "2Md",
+          "modelYear": "Sedan 2019"
+        }
+      ],
+      "carColor": [
+        {
+          "carId": 2,
+          "colorId": "2Ca",
+          "color": "Sedan red"
+        },
+        {
+          "carId": 2,
+          "colorId": "2Cb",
+          "color": "Sedan green"
+        },
+        {
+          "carId": 2,
+          "colorId": "2Cc",
+          "color": "Sedan pink"
+        },
+        {
+          "carId": 2,
+          "colorId": "2Cd",
+          "color": "Sedan yellow"
+        }
+      ]
+    },
+    {
+      "carName": "SUV",
+      "carId": 3,
+      "make": "Suzuki ",
+      "regestrationNo": "00SuzukiSUV123A",
+      "model": [
+        {
+          "carId": 3,
+          "modelId": "3Ma",
+          "modelYear": "SUV 2022"
+        },
+        {
+          "carId": 3,
+          "modelId": "3Mb",
+          "modelYear": "SUV 2021"
+        },
+        {
+          "carId": 3,
+          "modelId": "3Mc",
+          "modelYear": "SUV 2020"
+        },
+        {
+          "carId": 3,
+          "modelId": "3Md",
+          "modelYear": "SUV 2019"
+        }
+      ],
+      "carColor": [
+        {
+          "carId": 3,
+          "colorId": "3Ca",
+          "color": "SUV red"
+        },
+        {
+          "carId": 3,
+          "colorId": "3Cb",
+          "color": "SUV green"
+        },
+        {
+          "carId": 3,
+          "colorId": "3Cc",
+          "color": "SUV pink"
+        },
+        {
+          "carId": 3,
+          "colorId": "3Cd",
+          "color": "SUV yellow"
+        }
+      ]
+    },
+    {
+      "carName": "Hatchback",
+      "carId": 4,
+      "make": "Suzuki",
+      "regestrationNo": "00SuzukiHatch123A",
+      "model": [
+        {
+          "carId": 4,
+          "modelId": "4Ma",
+          "modelYear": "Suzuki 2022"
+        },
+        {
+          "carId": 4,
+          "modelId": "4Mb",
+          "modelYear": "Suzuki 2021"
+        },
+        {
+          "carId": 4,
+          "modelId": "4Mc",
+          "modelYear": "Suzuki 2020"
+        },
+        {
+          "carId": 4,
+          "modelId": "4Md",
+          "modelYear": "Suzuki 2019"
+        }
+      ],
+      "carColor": [
+        {
+          "carId": 4,
+          "colorId": "4Ca",
+          "color": "Suzuki red"
+        },
+        {
+          "carId": 4,
+          "colorId": "4Cb",
+          "color": "Suzuki green"
+        },
+        {
+          "carId": 4,
+          "colorId": "4Cc",
+          "color": "Suzuki pink"
+        },
+        {
+          "carId": 4,
+          "colorId": "4Cd",
+          "color": "Suzuki yellow"
+        }
+      ]
+    }
+  ],
+  "order": [
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "carName": "Sedan",
+      "carColor": "Sedan green",
+      "carModel": "Sedan 2021",
+      "carRegistration": "00ToyotaSedan123A",
+      "id": 1
+    },
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "carName": "Hatchback",
+      "carColor": "Suzuki pink",
+      "carModel": "Suzuki 2021",
+      "carRegistration": "00SuzukiHatch123A",
+      "id": 2
+    },
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "carName": "SUV",
+      "carColor": "SUV yellow",
+      "carModel": "SUV 2022",
+      "carRegistration": "00SuzukiSUV123A",
+      "id": 3
+    },
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "carName": "Hatchback",
+      "carColor": "Suzuki pink",
+      "carModel": "Suzuki 2019",
+      "carRegistration": "00SuzukiHatch123A",
+      "id": 4
+    }
+  ]
+}

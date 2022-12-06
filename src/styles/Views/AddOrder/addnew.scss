@@ -1,0 +1,30 @@
+.b-addNew-container {
+  margin-right: 25px;
+  &__title {
+    margin-top: 20px;
+  }
+  &__row {
+    margin-top: 20px;
+  }
+  &__fieldSection {
+    margin-bottom: 20px;
+    & select,
+    input {
+      padding: 10px 5px 10px 5px;
+      font-size: 18px;
+      border-radius: 5px;
+      width: 100%;
+      outline: transparent;
+      border: 2px solid blueviolet;
+    }
+  }
+  &__button {
+    text-align: center;
+    & button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 10px;
+    }
+  }
+}

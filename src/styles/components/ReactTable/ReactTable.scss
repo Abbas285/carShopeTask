@@ -1,0 +1,79 @@
+@mixin buttonStyle($color) {
+  background-color: $color;
+  padding: 10px 15px 10px 15px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.b-reactTable-container {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  & td,
+  & th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  & tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  & tr:hover {
+    background-color: #ddd;
+  }
+
+  & th,
+  tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  &__buttontUbdate {
+    @include buttonStyle(green);
+  }
+  &__buttontRemove {
+    @include buttonStyle(red);
+  }
+  &__buttontDetails {
+    @include buttonStyle(black);
+  }
+  &__previous {
+    @include buttonStyle(rgb(100, 128, 0));
+  }
+  &__next {
+    @include buttonStyle(rgb(100, 128, 0));
+  }
+  &__previousIccon {
+    @include buttonStyle(green);
+  }
+  &__nextIccon {
+    @include buttonStyle(black);
+  }
+  &__previousDisable {
+    @include buttonStyle(rgb(100, 128, 0));
+    opacity: 0.4;
+  }
+  &__nextDisable {
+    @include buttonStyle(rgb(100, 128, 0));
+    opacity: 0.4;
+  }
+  &__previousIcconDisable {
+    @include buttonStyle(green);
+    opacity: 0.4;
+  }
+  &__nextIcconDisable {
+    @include buttonStyle(black);
+    opacity: 0.4;
+  }
+}
