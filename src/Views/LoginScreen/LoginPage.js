@@ -75,7 +75,9 @@ const LoginPage = () => {
           toast.error("Email or Password are incorect");
         }
       })
-      .catch(() => {});
+      .catch(() => {
+        toast.error("Something went wrong !");
+      });
   };
 
   const handleChange = (e) => {

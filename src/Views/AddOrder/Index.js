@@ -13,7 +13,7 @@ const Index = () => {
     carColorData: [],
     carModelData: [],
   });
-  const { curentUser } = useSelector((state) => state.Auth);
+  const curentUser = useSelector((state) => state.curentUser);
   const navigate = useNavigate();
   useEffect(() => {
     getApiData({ route: "cars" }).then((res) => {

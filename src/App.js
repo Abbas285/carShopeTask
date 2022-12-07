@@ -1,7 +1,7 @@
 import "styles/App.scss";
 import { Routes, Route } from "react-router-dom";
 import LoginPage from "Views/LoginScreen/LoginPage";
-import SignInPage from "Views/LoginScreen/SignInPage";
+import SignInPage from "Views/SignInScreen/SignInPage";
 import Dashboard from "Views/Dashboard/DishBoard";
 import ProtectedRoutes from "Routes/ProtectedRoutes";
 import { ToastContainer } from "react-toastify";

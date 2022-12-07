@@ -4,6 +4,7 @@ const initialState = {
   token: false,
   curentUser: {},
 };
+//simple Auth Slice due to with Jwt token other wize use  redux thunk for auth
 
 const getApiSlice = createSlice({
   name: "Auth",

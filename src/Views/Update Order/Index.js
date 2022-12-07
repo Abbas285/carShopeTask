@@ -29,7 +29,7 @@ const Index = () => {
       }));
     }
   }, [location?.state]);
-  const { curentUser } = useSelector((state) => state.Auth);
+  const curentUser = useSelector((state) => state.curentUser);
   const navigate = useNavigate();
   useEffect(() => {
     getApiData({ route: "cars" }).then((res) => {

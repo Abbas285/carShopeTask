@@ -219,10 +219,10 @@
     {
       "userName": "Abbas Ali",
       "userEmail": "abbas@gamil.com",
-      "carName": "Sedan",
-      "carColor": "Sedan green",
-      "carModel": "Sedan 2021",
-      "carRegistration": "00ToyotaSedan123A",
+      "carName": "SUV",
+      "carColor": "SUV green",
+      "carModel": "SUV 2019",
+      "carRegistration": "00SuzukiSUV123A",
       "id": 1
     },
     {
@@ -251,6 +251,15 @@
       "carModel": "Suzuki 2019",
       "carRegistration": "00SuzukiHatch123A",
       "id": 4
+    },
+    {
+      "userName": "Abbas Ali",
+      "userEmail": "abbas@gamil.com",
+      "carName": "SUV",
+      "carColor": "SUV yellow",
+      "carModel": "SUV 2020",
+      "carRegistration": "00SuzukiSUV123A",
+      "id": 5
     }
   ]
 }

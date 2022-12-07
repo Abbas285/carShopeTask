@@ -2,9 +2,14 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import left_bar_icon_1 from "images/left-bar-icon-1.svg";
 import left_bar_icon_2 from "images/left-bar-icon-2.svg";
+import left_bar_icon_3 from "images/icn-04.svg";
+
 const Sidebar = () => {
   const location = useLocation();
   let path = location.pathname;
+  const logoutUser = () => {
+    console.log("logout user");
+  };
   return (
     <div className="col-xl-2 col-lg-3">
       <div className="left-side-menu-admin">
@@ -47,6 +52,24 @@ const Sidebar = () => {
                       />
                     </span>{" "}
                     <span className="text-hidee">Add new Order</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="#/"
+                    className={` mt-2  ${
+                      path === "/dashboard/addnew" ? "active" : ""
+                    }`}
+                    onClick={logoutUser}
+                  >
+                    <span className="img-icon">
+                      <img
+                        className="img-fluid icon-bike"
+                        src={left_bar_icon_3}
+                        alt="imageprop"
+                      />
+                    </span>{" "}
+                    <span className="text-hidee">Log Out</span>
                   </Link>
                 </li>
               </ul>
