@@ -3,12 +3,15 @@ import { Link, useLocation } from "react-router-dom";
 import left_bar_icon_1 from "images/left-bar-icon-1.svg";
 import left_bar_icon_2 from "images/left-bar-icon-2.svg";
 import left_bar_icon_3 from "images/icn-04.svg";
-
+import { useDispatch } from "react-redux";
+import { cleartoken } from "Redux/AuthSlice";
 const Sidebar = () => {
   const location = useLocation();
+  const dispatch = useDispatch();
+
   let path = location.pathname;
   const logoutUser = () => {
-    console.log("logout user");
+    dispatch(cleartoken());
   };
   return (
     <div className="col-xl-2 col-lg-3">
